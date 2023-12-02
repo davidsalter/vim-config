@@ -1,0 +1,11 @@
+{
+	"explorer.file.hiddenRules": {
+		"filenames": [
+			"node_modules",
+			".git",
+			"venv"
+		]
+	},
+  "explorer.icon.enableNerdfont": true,
+  "explorer.icon.source": "vim-devicons",
+}
