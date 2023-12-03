@@ -1,11 +1,14 @@
 {
-	"explorer.file.hiddenRules": {
-		"filenames": [
-			"node_modules",
-			".git",
-			"venv"
-		]
-	},
+  "diagnostic.enableMessage": "always",
+  "diagnostic.virtualText": true,
+  "diagnostic.virtualTextCurrentLineOnly": false,
+  "explorer.file.hiddenRules": {
+    "filenames": [
+      "node_modules",
+      ".git",
+      "venv"
+    ]
+  },
   "explorer.icon.enableNerdfont": true,
   "explorer.icon.source": "vim-devicons",
 }
