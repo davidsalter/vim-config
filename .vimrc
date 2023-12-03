@@ -7,15 +7,13 @@ Plug 'Luxed/ayu-vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline'
-Plug 'bling/vim-bufferline'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-test/vim-test'
 Plug 'puremourning/vimspector'
 
 call plug#end()
 
-let g:airline#extensions#tabline#left_sep = ' '
-let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#enabled = 1 " Enable the list of buffers
 let g:airline_theme='ayu'
 let g:vimspector_enable_mappings = 'HUMAN'
 
