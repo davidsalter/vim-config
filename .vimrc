@@ -13,14 +13,24 @@ Plug 'puremourning/vimspector'
 
 call plug#end()
 
+set encoding=utf-8
+
 let g:airline#extensions#tabline#enabled = 1 " Enable the list of buffers
 let g:airline_theme='ayu'
+let g:aireline_powerline_fonts=1
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+
+let g:airline_symbols.branch = ''
+
 let g:vimspector_enable_mappings = 'HUMAN'
+
+let g:airline_section_z = '%3p%% %l:%c'
 
 let mapleader=" "
 " May need for Vim (not Neovim) since coc.nvim calculates byte offset by count
 " utf-8 byte sequence
-set encoding=utf-8
 " Some servers have issues with backup files, see #649
 set nobackup
 set nowritebackup
