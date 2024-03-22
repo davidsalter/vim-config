@@ -50,7 +50,7 @@ let g:go_highlight_build_constraints = 1
 let g:go_highlight_generate_tags = 1
 let g:go_doc_popup_window = 1
 
-let g:coc_global_extensions = ['coc-go', 'coc-java', 'coc-html', 'coc-css', 'coc-tsserver', 'coc-xml', 'coc-json']
+let g:coc_global_extensions = ['coc-go', 'coc-java', 'coc-html', 'coc-css', 'coc-tsserver', 'coc-xml', 'coc-json', 'coc-snippets']
 
 " TextEdit might fail if hidden is not set.
 set hidden
